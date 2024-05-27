@@ -1,0 +1,19 @@
+@import url("https://necolas.github.io/normalize.css/");
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Mono',"DM Mono", monospace;
+    background-color: map-get( $colors, primary );
+    color: map-get($colors, black );
+    margin: 0;
+
+}
+
+#wrapper, footer {
+    padding: 1.2rem;  
+    box-sizing: border-box;
+
+}
+
+
+
