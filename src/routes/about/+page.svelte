@@ -53,7 +53,7 @@
 
         a {
             text-decoration: none;
-            color: black;
+            color: map-get($colors, black );
             button{
             border: 1px solid black;
             background-color: transparent;
@@ -98,9 +98,6 @@
         padding-bottom: 0;
 
         a{
-            &:visited{
-                color: map-get($colors, secondary );
-            }
             &:first-of-type{
                 padding-right: 1em;
             }

@@ -173,18 +173,13 @@
 		transform: translateY(0px);
 		opacity: 1;
 	}
-	.folder.open .paper:nth-child(3) {
-		transition-delay: 0.2s;
-	}
-	.folder.open .paper:nth-child(4) {
-		transition-delay: 0.4s;
-	}
-	.folder.open .paper:nth-child(5) {
-		transition-delay: 0.6s;
-	}
 
 	@media screen and (max-width: 600px) {
 		#skills {
+			grid-template-rows: min-content min-content;
+			height: 180vh;
+			width: 100%;
+			margin: 0 auto;
 			.grid {
 				grid-template-columns: min-content min-content min-content;
 				gap: 4rem;
