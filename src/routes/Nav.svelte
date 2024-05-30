@@ -109,6 +109,7 @@
 			.title2 {
 				a {
 					font-weight: 700;
+					font-size: 4.2rem;
 					font-family: 'CactusJack';
 				}
 			}
